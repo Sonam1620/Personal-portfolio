@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #979797;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    /* background-image: url(https://img.freepik.com/free-vector/programmer-concept-illustration_114360-2284.jpg?size=626&ext=jpg); */
+    /* background-image: url(https://img.freepik.com/free-vector/desktop-smartphone-app-development_23-2148683810.jpg?size=626&ext=jpg); */
+    background-color: rgb(101, 99, 99);
+    background-position: center;
+    background-size: cover;
+    color: #000000;
+    width: 100%;
+    /* height: 30%; */
+    /* padding: 10px 0; */
+} 
+#profile {
+    display: flex;
+    align-items: center;
+}
+
+#profile img {
+    width: 300px; 
+     border-radius: 50%; 
+     margin-left: 310px;
+    margin-top: 20px;
+    background-position: center;
+}
+
+#profile1 h1 { 
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-left: 392px ;
+}
+
+#profile1 p {
+    font-size: 18px;
+    margin-left: 346px ;
+ }   
+
+nav {
+    height: 50%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    color:#000000;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    width: 100px;
+    height: auto;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+#skills {
+    background-color: #fbfbfb;
+    padding: 40px 0;
+}
+
+#skills ul {
+    list-style: none;
+    color:#8f8e8e
+}
+
+#skills li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
